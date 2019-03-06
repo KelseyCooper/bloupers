@@ -1,0 +1,17 @@
+header {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+
+  .nav__link {
+    margin-left: 1.5625rem;
+    text-decoration: none;
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+  }
+}
