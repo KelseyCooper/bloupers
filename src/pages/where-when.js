@@ -7,7 +7,7 @@ import PageTransition from 'gatsby-plugin-page-transitions';
 
 const WhereWhenPage = () => (
   <Layout>
-    <PageTransition>
+    <PageTransition transitionTime={1000}>
       <SEO title="Where/when" />
       <h1>Where when</h1>
       <p>Welcome to page 2</p>

@@ -1,0 +1,12 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  & > div {
+    width: 100%;
+  }
+}

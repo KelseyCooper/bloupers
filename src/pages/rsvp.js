@@ -7,7 +7,7 @@ import PageTransition from 'gatsby-plugin-page-transitions';
 
 const rsvpPage = () => (
   <Layout>
-    <PageTransition>
+    <PageTransition transitionTime={1000}>
       <SEO title="Where/when" />
       <h1>rsvp</h1>
       <p>Welcome to page 2</p>
