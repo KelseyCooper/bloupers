@@ -1,0 +1,30 @@
+.amenity {
+  display: flex;
+  max-width: 70rem;
+  margin-bottom: 5rem;
+}
+
+.amenity__content {
+  width: 60%;
+}
+
+.amenity__description {
+  padding-right: 2rem;
+
+  p {
+    margin-top: 1rem;
+  }
+}
+
+.amenity__image-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 20rem;
+}
+
+.amenity__image {
+  height: 100%;
+  width: 100%;
+}

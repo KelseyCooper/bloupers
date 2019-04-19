@@ -13,6 +13,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    "gatsby-plugin-layout",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -38,12 +39,11 @@ module.exports = {
           },
           {
             family: `Open Sans`,
-            variants: [`300`, `400`]
+            variants: [`300`, `400`],
           },
         ],
       },
-    },
-    'gatsby-plugin-page-transitions'
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',

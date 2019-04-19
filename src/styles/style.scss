@@ -11,7 +11,10 @@
 @import "elements/main";
 @import "elements/headers";
 
+@import "pages/shared";
 @import "pages/home";
+@import "pages/where";
+@import "pages/amenities";
 
 // Components
 @import "components/site-container";
