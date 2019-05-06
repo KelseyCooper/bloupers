@@ -2,10 +2,19 @@
   display: flex;
   max-width: 70rem;
   margin-bottom: 5rem;
+
+  @include media($max: $bp-s) {
+    flex-direction: column;
+    &:not(:last-child) {
+      padding-bottom: 3rem;
+    }
+  }
 }
 
 .amenity__content {
-  width: 60%;
+  @include media($min: $bp-s) {
+    width: 60%;
+  }
 }
 
 .amenity__description {
@@ -17,14 +26,26 @@
 }
 
 .amenity__image-container {
-  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   max-height: 20rem;
+
+  @include media($max: $bp-s) {
+    order: -1;
+    margin-bottom: 2rem;
+  }
+
+  @include media($min: $bp-s) {
+    width: 40%;
+  }
 }
 
 .amenity__image {
-  height: 100%;
-  width: 100%;
+  @include media($min: $bp-s) {
+    height: 100%;
+    width: 100%;
+  }
 }
+
+

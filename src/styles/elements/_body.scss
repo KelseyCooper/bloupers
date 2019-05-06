@@ -28,3 +28,16 @@ a {
     color: $link-color-hover;
   }
 }
+
+p {
+  line-height: 1.9;
+}
+
+p:not(:first-child) {
+  margin-top: 1rem;
+}
+
+label {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 2rem;
+}

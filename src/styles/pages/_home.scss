@@ -5,10 +5,17 @@
 }
 
 .home-page__image {
-  width: 80%;
+  @include media($min: $bp-s) {
+    width: 80%;
+
+  }
   max-width: 50rem;
 }
 
 .home-page__title {
   margin-top: 4rem;
+
+  @include media($max: $bp-s) {
+    text-align: center;
+  }
 }

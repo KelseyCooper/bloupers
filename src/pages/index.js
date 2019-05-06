@@ -5,8 +5,8 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <div className="page">
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <img className="home-page__image" src={Party} />
+    <SEO title="Home" />
+    <img className="home-page__image" src={Party} alt="party"/>
     <h1 className="home-page__title">Come Celebrate with the Boopers</h1>
   </div>
 )

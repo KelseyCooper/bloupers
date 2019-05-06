@@ -1,17 +1,37 @@
 header {
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 2rem;
+  @include media($min: $bp-s) {
+    justify-content: space-between;
+    display: flex;
+  }
 }
 
 nav {
   display: flex;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 2rem;
+
+  @include media($max: $bp-s) {
+    flex-direction: column;
+    justify-content: center;
+  }
 
   .nav__link {
-    margin-left: 1.5625rem;
     text-decoration: none;
 
-    &:first-of-type {
-      margin-left: 0;
+    @include media($min: $bp-s) {
+      margin-left: 1.5625rem;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
     }
+  }
+}
+
+.nav__countdown {
+  margin-top: .2rem;
+
+  @include media($max: $bp-s) {
+    margin-top: 2rem;
   }
 }
