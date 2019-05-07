@@ -31,6 +31,7 @@ class rsvpPage extends React.Component {
               data-netlify-honeypot="bot-field"
             >
               <input type="hidden" name="bot-field" />
+              <input type="hidden" name="form-name" value="contact" />
               <div className="field half first">
                 <label htmlFor="names">guest name(s):</label>
                 <input type="text" name="names" id="names" />

@@ -19,7 +19,6 @@ const WhereWhenPage = () => (
           dinner and of course drinks!
 
         </p>
-
         <p>
           We are excited to share the east with our west coast family, spend time with our east coast family and bring everyone all
           together in one place. The website has information about what to see, to do and to eat in
