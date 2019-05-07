@@ -1,3 +1,23 @@
 footer {
-  // margin-top: auto;
+
+  .term-header {
+    display: flex;
+  }
+
+  .term-link-nav {
+    margin-left: 2rem;
+  }
+
+  .term {
+    max-width: 50rem;
+    margin-top: 2rem;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .term__title {
+    margin-bottom: 1rem;
+  }
 }

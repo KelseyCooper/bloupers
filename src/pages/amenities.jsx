@@ -35,10 +35,10 @@ const AmenitiesPage = () => (
           <h2 className="amenity__title">lodging</h2>
           <div className="amenity__description">
             <p>
-              Campbellton is a small town and options are limited.  We suggest the
+              Campbellton is a small town and options are limited.  We suggest the&nbsp;
               <a href="https://www.choicehotels.com/new-brunswick/campbellton/quality-inn-hotels/cn850?mc=llyxcncnnbl&pmf=canada">Civic Centre Hotel</a>
-              or the <a href="https://www.facebook.com/SanfarResort/">Sanfar Resort</a>
-              in Tide Head. There are also a few <a href="https://www.airbnb.ca/s/Campbellton--Canada">airbnbs</a>.
+              &nbsp;or the <a href="https://www.facebook.com/SanfarResort/">Sanfar Resort</a>
+              &nbsp;in Tide Head. There are also a few <a href="https://www.airbnb.ca/s/Campbellton--Canada">airbnbs</a>.
               If you are looking for a budget option you are invited to camp in Heidi's parents back yard or find a
               friendly local to go home with. We will have a shuttle to transport people back to Campbellton
               after the festivities are done.
@@ -59,7 +59,7 @@ const AmenitiesPage = () => (
           <h2 className="amenity__title">destinations</h2>
           <div className="amenity__description">
             <p>
-              In Campbellton, hike the <a href="http://parcsugarloafpark.ca/winter/todowinter">Sugarloaf </a> “Mountain” for an amazing view and go check out the <a href="https://www.pc.gc.ca/en/lhn-nhs/qc/ristigouche">sunken battleship</a> of the last battle between the French and English in North America (that one is for you, Steve).
+              In Campbellton, hike the <a href="http://parcsugarloafpark.ca/winter/todowinter">Sugarloaf</a>&nbsp;“Mountain” for an amazing view and go check out the <a href="https://www.pc.gc.ca/en/lhn-nhs/qc/ristigouche">sunken battleship</a> of the last battle between the French and English in North America (that one is for you, Steve).
             </p>
             <p>
               In Fredericton, it is really all about the food and drink for us but for a taste of culture go to the <a href="http://beaverbrookartgallery.org/en">Beaver Brook Art Gallery</a> to see the Salvador Dali.
@@ -90,7 +90,7 @@ const AmenitiesPage = () => (
               Campbellton is on the border of Quebec so you can get a pretty high standard poutine wherever you go.
               We highly recommend <a href="https://www.facebook.com/smokeonthewatersmokehousebbq/">Smoke on the Water</a>.
               They have a sweet potato poutine that is life changing! We also suggest
-              the <a href="https://www.facebook.com/pages/Country-Kitchen-Restaurant/250406621645890"> Country Kitchen</a >
+              the <a href="https://www.facebook.com/pages/Country-Kitchen-Restaurant/250406621645890">Country Kitchen</a>&nbsp;
               which is in Heidi’s home community of Glen Levit.
             </p>
           </div>
@@ -106,7 +106,7 @@ const AmenitiesPage = () => (
             <p>
               Campbellton is on the boarder of Quebec, so that means $1 Coors Light, Bud Light and Bud but
               take note the Supreme Court Canada reasoned against “Freeing the Beer” and the number of beer
-              that can travel across the Quebec to New Brunswick border is limited.
+              that can travel across the Quebec to New Brunswick border is limited.&nbsp;
               <a href="https://torontosun.com/news/national/free-the-beer-why-cant-you-enjoy-beer-from-a-different-province-this-long-weekend">Read more.</a>
             </p>
             <p>
@@ -115,7 +115,7 @@ const AmenitiesPage = () => (
             <p>
               If you fly into Fredericton, the last time we were there we heard a rumour it was boasting
               itself as the place with the most craft beer companies per capita. <a href="http://picaroons.ca/the-picaroons-roundhouse-is-now-open/">Picaroons</a>
-              has a great view of the City and <a href="https://www.redrovercider.com/">Red Rover Cider</a> is delicious for those cider lovers out there.
+              &nbsp;has a great view of the City and <a href="https://www.redrovercider.com/">Red Rover Cider</a> is delicious for those cider lovers out there.
             </p>
           </div>
         </div>
